@@ -393,11 +393,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5\\App5.csproj",
+      "projectUniqueName": "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5\\App5.csproj",
       "projectName": "App5",
-      "projectPath": "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5\\App5.csproj",
+      "projectPath": "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5\\App5.csproj",
       "packagesPath": "D:\\Users\\1020476\\.nuget\\packages\\",
-      "outputPath": "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5\\obj\\",
+      "outputPath": "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

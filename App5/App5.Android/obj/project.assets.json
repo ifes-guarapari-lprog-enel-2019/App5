@@ -729,11 +729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "projectUniqueName": "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5.Android\\App5.Android.csproj",
       "projectName": "App5.Android",
-      "projectPath": "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "projectPath": "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5.Android\\App5.Android.csproj",
       "packagesPath": "D:\\Users\\1020476\\.nuget\\packages\\",
-      "outputPath": "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5.Android\\obj\\",
+      "outputPath": "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -750,8 +750,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5\\App5.csproj": {
-              "projectPath": "d:\\users\\1020476\\source\\repos\\App5\\App5\\App5\\App5.csproj"
+            "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5\\App5.csproj": {
+              "projectPath": "D:\\Users\\1020476\\source\\repos\\ifes-guarapari-lprog-enel-2019\\App5\\App5\\App5\\App5.csproj"
             }
           }
         }
