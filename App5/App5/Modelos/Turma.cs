@@ -36,7 +36,10 @@ namespace App5.Modelos
             }
             set
             {
-                this.ano = value;
+                if (value >= 0)
+                {
+                    this.ano = value;
+                }
             }
         }
 
@@ -51,7 +54,10 @@ namespace App5.Modelos
             }
             set
             {
-                this.semestre = value;
+                if (value >= 1 && value <= 2)
+                {
+                    this.semestre = value;
+                }
             }
         }
 

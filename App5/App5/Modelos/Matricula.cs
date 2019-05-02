@@ -51,7 +51,10 @@ namespace App5.Modelos
             }
             set
             {
-                this.ano = value;
+                if (value >= 0)
+                {
+                    this.ano = value;
+                }
             }
         }
 
@@ -66,7 +69,10 @@ namespace App5.Modelos
             }
             set
             {
-                this.semestre = value;
+                if (value >= 1 && value <= 2)
+                {
+                    this.semestre = value;
+                }
             }
         }
 
@@ -102,9 +108,15 @@ namespace App5.Modelos
             this.codigo = date.Millisecond.ToString();
         }
 
+        // método matricular (estabelece uma dependência da classe com Histórico e Turma)
         public Historico Matricular(Turma turma)
         {
-
+            // criar novo histórico
+            Historico historico = new Historico(this, turma);
+            // adicionar na lista
+            Historicos.Add(historico);
+            // retornar novo histórico
+            return historico;
         }
 
     }

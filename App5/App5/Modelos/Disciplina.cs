@@ -7,6 +7,21 @@ namespace App5.Modelos
     class Disciplina
     {
 
+        // lista de cursos
+        private List<Curso> cursos;
+
+        public List<Curso> Cursos
+        {
+            get
+            {
+                return this.cursos;
+            }
+            set
+            {
+                this.cursos = value;
+            }
+        }
+
         // atributo requisito
         private Disciplina requisito;
 
@@ -46,7 +61,10 @@ namespace App5.Modelos
             }
             set
             {
-                this.horas = value;
+                if (value > 0)
+                {
+                    this.horas = value;
+                }
             }
         }
 

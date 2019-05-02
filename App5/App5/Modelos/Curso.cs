@@ -7,7 +7,19 @@ namespace App5.Modelos
     class Curso
     {
         // lista de disciplinas
-        public List<Disciplina> Disciplinas = new List<Disciplina>();
+        private List<Disciplina> disciplinas;
+
+        public List<Disciplina> Disciplinas
+        {
+            get
+            {
+                return this.disciplinas;
+            }
+            set
+            {
+                this.disciplinas = value;
+            }
+        }
 
         // atributo nome
         private String nome;

@@ -51,7 +51,10 @@ namespace App5.Modelos
             }
             set
             {
-                this.faltas = value;
+                if (value >= 0)
+                {
+                    this.faltas = value;
+                }
             }
         }
 
@@ -90,22 +93,36 @@ namespace App5.Modelos
 
         }
 
-        // calcular Resultado
+        // método para calcular resultado
         public Resultado Calcular()
         {
             // variável para calcular média
             float media = 0;
             // percorre todas as notas
-            foreach (Nota nota in this.Notas) {
+            foreach (Nota nota in this.Notas)
+            {
                 media += nota.Valor;
             }
             // calcular a média
             media = media / this.Notas.Count;
             // variável para verificar se o aluno foi aprovado
-            bool aprovado = (media >= 5) && (this.faltas <= 0.75*this.turma.Disciplina.Horas);
+            bool aprovado = (media >= 5) && (this.faltas <= 0.75 * this.turma.Disciplina.Horas);
             // retornar o resultado
             return new Resultado(media, aprovado);
         }
 
+        // construtor da classe
+        public Historico()
+        {
+        }
+
+        // construtor da classe
+        public Historico(Matricula matricula, Turma turma)
+        {
+            this.matricula = matricula;
+            this.turma = turma;
+        }
+
     }
+
 }

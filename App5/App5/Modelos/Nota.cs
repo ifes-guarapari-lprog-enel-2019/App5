@@ -33,7 +33,10 @@ namespace App5.Modelos
             }
             set
             {
-                this.valor = value;
+                if (value >= 0 && value <= 100)
+                {
+                    this.valor = value;
+                }
             }
         }
 
