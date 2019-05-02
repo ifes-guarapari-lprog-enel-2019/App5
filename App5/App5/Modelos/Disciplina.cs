@@ -7,6 +7,21 @@ namespace App5.Modelos
     class Disciplina
     {
 
+        // atributo requisito
+        private Disciplina requisito;
+
+        public Disciplina Requisito
+        {
+            get
+            {
+                return this.requisito;
+            }
+            set
+            {
+                this.requisito = value;
+            }
+        }
+
         // atributo nome
         private String nome;
 
